@@ -118,12 +118,8 @@ ORDER BY atc.owner, atc.table_name, atc.column_id;
 
 ## SQL Files
 
-These are standalone Oracle SQL scripts for AP/PO reconciliation — run directly against the EBS database, not through the chat interface.
-
 | File | Purpose |
 |---|---|
-| `ap_po_rcv_xla_reconciliation.sql` | Matches AP XLA lines against RCV/PO XLA lines; covers 3-way receipt match and 2-way PO match |
-| `ap_po_rcv_xla_reconciliation_Rcpt101_Inv102.sql` | Reverse account detection — identifies mis-posted entries |
 | `Queries.sql` | Utility queries for exploring EBS schema metadata |
 
 ---
