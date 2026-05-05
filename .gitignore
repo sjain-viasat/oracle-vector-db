@@ -25,6 +25,10 @@ chromadb/
 Thumbs.db
 desktop.ini
 
+# Reconciliation SQL (local only)
+ap_po_rcv_xla_reconciliation.sql
+ap_po_rcv_xla_reconciliation_Rcpt101_Inv102.sql
+
 # Scratch / working files
 gitignore/*.xlsx
 "files (2).zip"
